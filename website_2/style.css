@@ -18,6 +18,7 @@ ul li {
 }
 
 li {
+   font: bold 14px Helvetica, Sans-Serif; 
     float: right;
 }
 
@@ -142,6 +143,37 @@ a:hover {
   margin: 0 0 0 10px;
 }
 
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 525px;
+    left: 0;
+    width: 100%;
+    
+}
+
+.title span {
+   color: white; 
+   font: bold 24px/45px Bebas, Helvetica, Sans-Serif; 
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 8px; 
+   letter-spacing: 2px
+}
+
+small {
+    color: white;
+    font-size: 12px;
+}
+
+span.spacer {
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.0);
+}
 /*------------------------------------*\
   ABOUT
 \*------------------------------------*/
@@ -254,7 +286,7 @@ a:hover {
 }
 
 .rig-text {
-    
+    font: bold 14px Helvetica, Sans-Serif; 
     color: aliceblue;
     display: block;
     margin-left: 15px;
